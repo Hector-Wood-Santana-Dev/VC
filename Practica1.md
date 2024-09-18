@@ -40,3 +40,9 @@ A continuación, se realiza un recorrido por ancho y altura de la imagen y se al
 Finalmente, se hace uso de la función ``cv2.circle()`` para destacar estas posiciones. Siendo la zona más oscura redondeada de azúl y la zona más clara de verde.
 
 ## Tarea 6. Llevar a cabo una propuesta propia de pop art.
+
+Para realizar nuestra propuesta de Pop Art, se ha decidido utilizar la entrada por cámara web ya que consideramos que es más entretenido. 
+
+Para la tarea se han aplicado 4 filtros diferentes a la entrada de la cámara, haciendo uso de la función ```cv2.merge()`` y modificando los parámetros de los planos. 
+
+Por último se han colocado en una matriz 2x2 y se ha agrandado la imagen a 1.5 su tamaño original.  
