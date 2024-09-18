@@ -43,6 +43,6 @@ Finalmente, se hace uso de la función ``cv2.circle()`` para destacar estas posi
 
 Para realizar nuestra propuesta de Pop Art, se ha decidido utilizar la entrada por cámara web ya que consideramos que es más entretenido. 
 
-Para la tarea se han aplicado 4 filtros diferentes a la entrada de la cámara, haciendo uso de la función ```cv2.merge()`` y modificando los parámetros de los planos de forma que al multiplicarlos por el valor deseado en uno de los 3 canales, al normalizar el array ``(value).astype(np.uint8)`` logramos que ese canal quede cerca de ese valor, no importa su valor original. 
+Para la tarea se han aplicado 4 filtros diferentes a la entrada de la cámara, haciendo uso de la función ``cv2.merge()`` y modificando los parámetros de los planos de forma que al multiplicarlos por el valor deseado en uno de los 3 canales, al normalizar el array ``(value).astype(np.uint8)`` logramos que ese canal quede cerca de ese valor, no importa su valor original. 
 
 Por último se han colocado en una matriz 2x2 y se ha agrandado la imagen a 1.5 su tamaño original.  
