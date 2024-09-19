@@ -9,11 +9,16 @@ Para la realización de esta tarea, se genera un _array_ de tres dimensiones (80
 
 Finalmente, se usa la librería ``matplotlib.pyplot`` para mostrar por pantalla el resultado.
 
+![](Material_P1/task1.png)
+
 ## Tarea 2. Crear una imagen estilo Mondrian
 
 Se genera la imagen a partir de un _array_ como en la tarea anterior (haciendo uso del método ``numpy.zeros()``) pero con 3 canales de color (RGB). 
 
 Se establece a 255 todos los canales de color para obtener un fondo blanco y se procede a modificar los valores en los canales deseados sobre distintos segmentos para obtener la imagen deseada.
+
+![](Material_P1/task2.png)
+
 
 ## Tarea 3. Resuelve una de las tareas previas con las funciones de OpenCV
 
@@ -21,15 +26,22 @@ Buscando tener más soltura en el uso de la librería, se decidió resolver amba
 
 Por otro lado, la imagen estilo Mondrian fue realizada a base de rectángulos y líneas de OpenCV.
 
+![](Material_P1/task3.png)
+
+
 ## Tarea 4. Modifica de forma libre los valores de un plano de la imagen
 
-Para esta práctica se ha usado la siguiente [imagen](Material_P1/music_cat.jpeg).
+Para esta práctica se ha usado la siguiente imagen:
+![](Material_P1/music_cat.jpeg).
 
 Se carga la imagen desde disco y se muestra mediante ``matplotlib``, se puede observar que se encuentra en formato BGR (por defecto de carga de OpenCV). Por lo que realizamos una conversión al formato RGB y procedemos a modificar planos de la imagen.
 
 En primer lugar, se separan los distintos canales que forman la imagen ``cv2.split()``, se modifican los canales rojo y azúl y se establece el tipo para evitar valores que excedan el rango [0,255]. Finalmente se vuelve a generar la imagen con los canales modificados y se muestra por pantalla.
 
 En esta ocasión hemos reducido la intensidad de los canales rojo y azúl, lo cual resulta en una mayor presencia del canal verde. Destacando sobre los otros dos.
+
+![](Material_P1/task4.png)
+
 
 ## Tarea 5. Pintar círculos en las posiciones del píxel más claro y oscuro de la imagen.
 
@@ -39,10 +51,15 @@ A continuación, se realiza un recorrido por ancho y altura de la imagen y se al
 
 Finalmente, se hace uso de la función ``cv2.circle()`` para destacar estas posiciones. Siendo la zona más oscura redondeada de azúl y la zona más clara de verde.
 
+![](Material_P1/task5.png)
+
+
 ## Tarea 6. Llevar a cabo una propuesta propia de pop art.
 
 Para realizar nuestra propuesta de Pop Art, se ha decidido utilizar la entrada por cámara web ya que consideramos que es más entretenido. 
 
-Para la tarea se han aplicado 4 filtros diferentes a la entrada de la cámara, haciendo uso de la función ```cv2.merge()`` y modificando los parámetros de los planos de forma que al multiplicarlos por el valor deseado en uno de los 3 canales, al normalizar el array ``(value).astype(np.uint8)`` logramos que ese canal quede cerca de ese valor, no importa su valor original. 
+Para la tarea se han aplicado 4 filtros diferentes a la entrada de la cámara, haciendo uso de la función ``cv2.merge()`` y modificando los parámetros de los planos de forma que al multiplicarlos por el valor deseado en uno de los 3 canales, al normalizar el array ``(value).astype(np.uint8)`` logramos que ese canal quede cerca de ese valor, no importa su valor original. 
 
 Por último se han colocado en una matriz 2x2 y se ha agrandado la imagen a 1.5 su tamaño original.  
+
+![](Material_P1/vid_sample.png)
