@@ -74,7 +74,7 @@ El primer filtro se trata del pop art desarrollado durante la práctica anterior
 
 ![](/Practica_2/imagen8.png "imagen 8")
 
-El segundo filtro desarrollado hace uso de lo desarrollado a lo largo de esta misma práctica, aplicando Sobel y marcando con lineas azules las filas y columnas con mayor número de píxeles blancos y con lineas rojas las que menor cantidad tienen, las cuales se calculan frame a frame
+El segundo filtro desarrollado hace uso de lo desarrollado a lo largo de esta misma práctica, aplicando Sobel y marcando con lineas rojas las filas y columnas con mayor número de píxeles blancos y con lineas azules las que menor cantidad tienen, las cuales se calculan frame a frame
 
 ![](/Practica_2/imagen9.png "imagen 9")
 
@@ -94,7 +94,7 @@ Esto es posible generando una máscara que al aplicarse sobre cada frame diferen
 
 Se propone un detector de colores, en este caso detector de tonalidades de rojo. Para ello se ha transformado la imagen leída por cv2 a formato HSV.
 
-A continuación se ha establecido unos límites superiores e inferiores. Se guardan como máscaras y se combinan. Gracias una vez más a uno de los operadores de OpenCV, en este caso ``cv2.bitwise_and`` se aplican las máscaras para los valores indicados y se dibuja un rectángulo para ubicar esos espacios en tiempo real (imagen 13).
+A continuación se ha establecido unos límites superiores e inferiores. Se guardan como máscaras y se combinan. Gracias una vez más a uno de los operadores de OpenCV, en este caso ``cv2.bitwise_and`` se aplican las máscaras para los valores indicados y se dibuja un rectángulo para ubicar esos espacios en tiempo real (imagen 13). También se ha implementado que cuando el rectángulo es horizontal se vuelve el azul y cuando está en vertical se vuelve verde. 
 
 ![](/Practica_2/imagen13.png "imagen 13")
 
