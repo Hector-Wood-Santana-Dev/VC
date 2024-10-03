@@ -74,7 +74,7 @@ El primer filtro se trata del pop art desarrollado durante la práctica anterior
 
 ![](/Practica_2/imagen8.png "imagen 8")
 
-El segundo filtro desarrollado hace uso de lo desarrollado a lo largo de esta misma práctica, aplicando Sobel y marcando con lineas azules las filas y columnas con mayor número de píxeles blancos y con lineas rojas las que menor cantidad tienen, las cuales se calculan frame a frame
+El segundo filtro desarrollado hace uso de lo desarrollado a lo largo de esta misma práctica, aplicando Sobel y marcando con lineas rojas las filas y columnas con mayor número de píxeles blancos y con lineas azules las que menor cantidad tienen, las cuales se calculan frame a frame
 
 ![](/Practica_2/imagen9.png "imagen 9")
 
