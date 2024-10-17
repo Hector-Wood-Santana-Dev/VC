@@ -17,7 +17,7 @@ Aquí hemos propuesto dos alternativas para visualizar la imagen e identificar u
 La primera es utilizar la función de CV2 ``findContours()`` que es una función capaz de encontrar contornos para cualquier tipo de forma geométrica.
 
 Para este proceso se siguen los siguientes pasos:
-- Se realiza una conversión a RGB con ``cv2.COLOR_BGR2RGB`` y a continuación se realiza la conversión a tonos de grises con ``cv2.COLOR_RGB2GRAY``.
+- Se realiza una conversión a tonos de grises con ``cv2.COLOR_RGB2GRAY``.
 - Con  la escala de grises se realiza un umbralizado binario invertido con ``cv2.THRESH_BINARY_INV``. Como se ve en la imagen 1. 
 
 ![Resultado Umbralizado de Monedas](../Practica_3/ImagenesMD/MonedasUmbralizado.png)
@@ -26,10 +26,10 @@ Para este proceso se siguen los siguientes pasos:
 
 ![Imagen con los contornos](../Practica_3/ImagenesMD/MonedasfindContours.png)
 
-La segunda opción es la Transformada de Hough, que es la que hemos decidido utilizar porque nos a ofrecido mejores resultados.
+La segunda opción es la Transformada de Hough, que es la que hemos decidido utilizar porque nos ha ofrecido mejores resultados.
 
 Para utilizarlas se sigue el siguiente proceso:
-- Se realiza un reescalado de la imagen si este fuese necesario haciendo uso de ``cv2.INTER_CUBIC``.
+- Se realiza un reescalado de la imagen de forma que se mantenga denttro de unas dimensiones estandar haciendo uso de ``cv2.INTER_CUBIC``.
 - Se realiza directamente un conversión a la escala de grises desde BGR utilizando ``cv2.COLOR_BGR2GRAY``.
 
 ![Monedas Gris](../Practica_3/ImagenesMD/MonedasGrey.png)
