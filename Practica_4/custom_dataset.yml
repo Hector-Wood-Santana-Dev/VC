@@ -1,15 +1,16 @@
-# Datasets for license-plate detection
+#G21 - Hector Wood & Alejandro Viera
 
-#Datasets path:
+# Datasets for license-plate detection
+#Paths:
 train: 
-  - ./datasets/plate-number/train/
+  - ./registrringsnummerv12i/train/
 val: 
-  - ./datasets/plate-number/valid/
+  - ./registrringsnummerv12i/valid/
 test: 
-  - ./datasets/plate-number/test/
+  - ./registrringsnummerv12i/test/
 
 # number of classes
 nc: 1
 
 # class names
-names: ['lplate']
+names: ['license-plate']
