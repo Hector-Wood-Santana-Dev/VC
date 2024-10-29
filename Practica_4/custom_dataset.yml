@@ -1,0 +1,15 @@
+# Datasets for license-plate detection
+
+#Datasets path:
+train: 
+  - ./datasets/plate-number/train/
+val: 
+  - ./datasets/plate-number/valid/
+test: 
+  - ./datasets/plate-number/test/
+
+# number of classes
+nc: 1
+
+# class names
+names: ['lplate']
