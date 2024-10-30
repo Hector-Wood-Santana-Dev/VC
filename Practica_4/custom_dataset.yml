@@ -3,11 +3,14 @@
 # Datasets for license-plate detection
 #Paths:
 train: 
-  - ./registrringsnummerv12i/train/
+  #- ./registrringsnummerv12i/train/
+  - C:/Users/hecto/Documents/Estudios/Universidad/4º/VC/VC/VC/Practica_4/datasets/registrringsnummerv12i/train/
 val: 
-  - ./registrringsnummerv12i/valid/
+  #- ./registrringsnummerv12i/valid/
+  - C:/Users/hecto/Documents/Estudios/Universidad/4º/VC/VC/VC/Practica_4/datasets/registrringsnummerv12i/valid/
 test: 
-  - ./registrringsnummerv12i/test/
+  #- ./registrringsnummerv12i/test/
+  - C:/Users/hecto/Documents/Estudios/Universidad/4º/VC/VC/VC/Practica_4/datasets/registrringsnummerv12i/test/
 
 # number of classes
 nc: 1
