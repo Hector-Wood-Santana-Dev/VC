@@ -26,7 +26,7 @@ Se considerarán extras:
 ## Desarrollo:
 
 Lo primero que se realizará es la demostración del modelo de yolo que se va a usar como base, *Yolo11n*.
-Para ello se hará uso del comando ```model.track()`` el cual nos permite usar el modelo permitiendo que yolo realice un seguimiento de los objetos que se están detectando. Ver imagen 1.
+Para ello se hará uso del comando ``model.track()`` el cual nos permite usar el modelo permitiendo que yolo realice un seguimiento de los objetos que se están detectando. Ver imagen 1.
 
 ![Resultado Model Track](../Practica_4/ImagenesMD/ModelTrackTest.png "Imagen 1")
 
@@ -34,13 +34,13 @@ Con esto hemos podido confirmar que este modelo de yolo incluye las clases que n
 
 Lo siguiente que vamos a hacer, es entrenar un modelo para que detecte las matrículas de los coches. Esto nos permitirá recortar esa porción de la imagen y con un software de detección de texto, conseguiremos extraer la matrícula. 
 Para ello hemos buscado un dataset de acceso público que ya viene etiquetado y organizado especificamente para ser usado para el entrenamiendo de un modelo tipo yolo.
-https://universe.roboflow.com/lemons/registrringsnummer/dataset/12
+https://universe.roboflow.com/lemons/registrringsnummer
 
 Con el dataset y el comando ``model.train()`` vamos a proceder a entrenar. El ordenador donde ha sido entrenado el modelo cuenta con una GPU compatible con la tecnología CUDA y cuDNN de Nvidia, lo que nos permite entrenar el modelo en aproximadamente unos 15 minutos. Usando las especificaciones que se muestran en la imagen 2.
 
 ![Especificaciones del Entrenamiento](../Practica_4/ImagenesMD/EspecificacionesTrainingModelo.png "Imagen 2")
 
-Al final de las 30 epocas de entrenamiento acabamos con un modelo con una precisión del 0.894. Y que nos da una matriz de confusión como se observa en la imagen 3.
+Al final de las 30 épocas de entrenamiento acabamos con un modelo con una precisión del 0.894. Y que nos da una matriz de confusión como se observa en la imagen 3.
 
 ![Matriz de Confusión](../Practica_4/ImagenesMD/confusion_matrix.png "Imagen 3")
 
@@ -64,3 +64,6 @@ Una vez ya tenemos los dos modelos necesarios para la realización de la prácti
 - Una vez fuera del bucle realizamos un ``print()`` de varios datos importantes como la confianza y la clase. Esto nos permite saber que el código está funcionando.
 - También realizamos una actualización de los contadores y realizamos un ``detections_data.append()`` para poder crear un dataframe para nuestro archivo CSV.
 -  Una vez ha terminado el bucle principal realizamos un ``print()`` de los contadores, volcamos el video a disco y pasamos nuestro dataframe a un archivo CSV.
+
+Enlace al video final: 
+https://alumnosulpgc-my.sharepoint.com/:v:/g/personal/hector_wood101_alu_ulpgc_es/EQ_5_pL7t21LjmqM9qOQssgBF4iny6x2RYd9yTRI9XpouQ?e=uO2frw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
