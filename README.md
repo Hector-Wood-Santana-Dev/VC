@@ -17,3 +17,7 @@ Práctica destinada a afianzar el uso de la conversión de formato de espacios d
 ## Práctica 3 - Detección y reconocimiento de formas
 
 Práctica destinada a utilizar distintos algoritmos presentes en el paquete ``cv2`` para poder detectar formas y después su aplicación a un caso del mundo real haciendo uso del paquete ``sklearn`` para generar una matriz de confusión. [Desarrollo de la práctica 3](./Practica_3/Practica3.md)
+
+## Práctica 4 - Reconocimiento de matrículas
+
+Práctica destinada a utilizar ``yolo11`` para entrenar un modelo para la detección de matrículas. También se detectarán personas y vehículos. Las matrículas se pasarán por un OCR para intentar reconocer el texto. [Desarrollo de la práctica 4](./Practica_4/Practica4.md)
