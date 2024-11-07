@@ -5,3 +5,6 @@ VC_P2.ipynb
 *.avi
 Practica_4/datasets
 testing.ipynb
+shape_predictor_5_face_landmarks.dat
+shape_predictor_68_face_landmarks.dat
+DatabaseGender59x65/
