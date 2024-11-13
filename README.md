@@ -21,3 +21,7 @@ Práctica destinada a utilizar distintos algoritmos presentes en el paquete ``cv
 ## Práctica 4 - Reconocimiento de matrículas
 
 Práctica destinada a utilizar ``yolo11`` para entrenar un modelo para la detección de matrículas. También se detectarán personas y vehículos. Las matrículas se pasarán por un OCR para intentar reconocer el texto. [Desarrollo de la práctica 4](./Practica_4/Practica4.md)
+
+## Práctica 5 - Detección y caracterización de caras
+
+Práctica cuyo objetivo es aprender los distintos modelos de detección y caracterización de caras disponibles y uso de uno de ellos además de los conocimientos en Python y sus librerias para implementar un filtro facial. [Desarrollo de la práctica 5](./Practica_5/Practica5.md)
