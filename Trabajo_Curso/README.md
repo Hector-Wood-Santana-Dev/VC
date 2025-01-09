@@ -10,7 +10,9 @@
 - [Objetivo y funcionamiento](#objetivo-y-funcionamiento)
 - [Tecnologías utilizadas](#tecnologías-utilizadas)
 - [Implementación del programa](#implementación-del-programa)
-- [](#fuentes-y-tecnologías-utilizadas)
+- [Fuentes](#fuentes)
+- [Organización del equipo](#organización-del-equipo)
+- [Conclusión y pasos a seguir](#conclusión-y-pasos-a-seguir)
 
 ## Motivación y propuesta
 
@@ -107,7 +109,7 @@ Para poder implementar estas funciones, implementamos una serie de funciones aux
 
 - Cerrar procesos activos
 
-### Fuentes
+## Fuentes
 
 Para poder desarrollar este programa, ha sido necesario consultar la documentación de cada una de las librerías importadas:
 
@@ -120,13 +122,13 @@ Para poder desarrollar este programa, ha sido necesario consultar la documentaci
 
 Adicionalmente, nos hemos apoyado en [ChatGPT,](https://openai.com/index/chatgpt/) para buscar alternativas y formas de optimizar el código, esto nos ha permitido identificar errores, posibles fallos de concepto y cálculos redundantes.
 
-### Organización del equipo
+## Organización del equipo
 
 Este periodo no ha estado exento de problemas. Lamentablemente, no contamos con uno de los ordenadores puesto que se había estropeado una de las últimas semanas de clase. Como resultado, mientras que ambos miembros del grupo picábamos código, éste se ejecutaba únicamente desde un ordenador.
 
 No obstante, realizamos una gran labor de comunicación. Intercambiando ideas, proponiendo herramientas y resolviendo cada inconveniente que se presentaba. En total nos reunimos por medios telemáticos en 4 ocasiones y mantuvimos el dialogo de forma regular y constante por chat.
 
-### Conclusión y pasos a seguir
+## Conclusión y pasos a seguir
 
 Finalmente, presentamos un proyecto funcional, capaz de realizar hasta 14 acciones diferentes incluyendo el control en tiempo real de periféricos. 
 
