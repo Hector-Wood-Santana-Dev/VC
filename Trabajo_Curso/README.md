@@ -124,7 +124,7 @@ Adicionalmente, nos hemos apoyado en [ChatGPT,](https://openai.com/index/chatgpt
 
 ## Organización del equipo
 
-Este periodo no ha estado exento de problemas. Lamentablemente, no contamos con uno de los ordenadores puesto que se había estropeado una de las últimas semanas de clase. Como resultado, mientras que ambos miembros del grupo picábamos código, éste se ejecutaba únicamente desde un ordenador.
+Este periodo no ha estado exento de problemas. Lamentablemente, no contamos con uno de los ordenadores puesto que se había estropeado una de las últimas semanas de clase. Como resultado, mientras que ambos miembros del grupo implementamos código, éste se ejecutaba únicamente desde un ordenador.
 
 No obstante, realizamos una gran labor de comunicación. Intercambiando ideas, proponiendo herramientas y resolviendo cada inconveniente que se presentaba. En total nos reunimos por medios telemáticos en 4 ocasiones y mantuvimos el dialogo de forma regular y constante por chat.
 
